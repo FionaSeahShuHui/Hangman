@@ -1,0 +1,203 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gameContainer h1 {
+  text-align: center;
+}
+
+.letters {
+  /* background-color: blue; */
+  flex: 1;
+  float: left;
+  height: auto;
+  width: 40px;
+  margin: 0.4em;
+  text-align: center;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 20px;
+  height: 60px;
+  padding: 1px;
+}
+
+.gameContainer {
+  margin: 0 auto;
+  /* width: 80%; */
+  float: center;
+  height: 100vh;
+  /* background-color: red; */
+}
+
+.breakLine {
+  height: 4vh;
+  /* background-color: gold; */
+}
+
+.wordGuess {
+  line-height: 60px;
+  text-align: center;
+  font-size: 25px;
+  /* background-color: brown; */
+}
+
+.keyboard {
+  float: center;
+  margin: 0 auto;
+  padding-top: 2%;
+  padding-left: 8%;
+  float: center;
+  height: auto;
+  width: 100%;
+  /* -moz-box-sizing: border-box; */
+  /* -webkit-box-sizing: border-box; */
+  /* -ms-box-sizing: border-box; */
+  box-sizing: border-box;
+}
+
+.letters {
+  flex: 1;
+  float: left;
+  height: auto;
+  width: 40px;
+  margin: 0.4em;
+  text-align: center;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 20px;
+  height: 60px;
+  padding: 1px;
+}
+
+.letters:hover {
+  background-color: black;
+  color: white;
+}
+
+.letters:active {
+  border: 2px solid purple;
+}
+
+.restartGameButton {
+  cursor: pointer;
+}
+
+.restartGameButton :hover {
+  border: 2px solid;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.hangmanImage img {
+  width: 30vh;
+  filter: invert(100%);
+  border: 2px solid white;
+}
+
+.gameWord input {
+  float: center;
+  height: 50px;
+  width: 50px;
+  margin: 3px;
+  border: 2px solid black;
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.restartGameButton {
+  border: 2px solid black;
+  margin: 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+
+.restartGameButton:hover {
+  background-color: grey;
+  border: grey;
+  color: black;
+}
+/* Not Handphone size */
+@media only screen and (min-width: 750px) {
+  .gameContainer {
+    margin: 0 auto;
+    float: center;
+    /* width: 80%; */
+    height: 50vh;
+  }
+
+  .breakLine {
+    height: 4vh;
+  }
+
+  .wordGuess {
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .hangmanImage img {
+    width: 30vh;
+    filter: invert(100%);
+    border: 2px solid white;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .letters {
+    flex: 1;
+    float: left;
+    height: auto;
+    width: 40px;
+    margin: 0.4em;
+    text-align: center;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 60px;
+    padding: 1px;
+  }
+
+  .letters:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .letters:active {
+    border: 2px solid purple;
+  }
+
+  .gameWord input {
+    float: center;
+    height: 45px;
+    width: 40px;
+    margin: 3px;
+    border: 2px solid black;
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .restartGameButton {
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+  }
+
+  .restartGameButton:hover {
+    background-color: grey;
+    border: grey;
+    color: black;
+  }
+}

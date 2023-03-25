@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hangman</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="gameContainer">
+        <h1>Hangman</h1>
+        <div class="wordGuess" />
+        <div class="breakLine"></div>
+        <div id="row">
+          <div class="hangmanImage">
+            <img src="images/empty.png" id="strikes" />
+          </div>
+          <div class="gameWord"></div>
+          <div class="restartGameButton">Restart</div>
+          <div class="keyboard">
+            <div class="letters" id="letterA" onclick="keyBoardFunction('A')">
+              A
+            </div>
+            <div class="letters" id="letterB" onclick="keyBoardFunction('B')">
+              B
+            </div>
+            <div class="letters" id="letterC" onclick="keyBoardFunction('C')">
+              C
+            </div>
+            <div class="letters" id="letterD" onclick="keyBoardFunction('D')">
+              D
+            </div>
+            <div class="letters" id="letterE" onclick="keyBoardFunction('E')">
+              E
+            </div>
+            <div class="letters" id="letterF" onclick="keyBoardFunction('F')">
+              F
+            </div>
+            <div class="letters" id="letterG" onclick="keyBoardFunction('G')">
+              G
+            </div>
+            <div class="letters" id="letterH" onclick="keyBoardFunction('H')">
+              H
+            </div>
+            <div class="letters" id="letterI" onclick="keyBoardFunction('I')">
+              I
+            </div>
+            <div class="letters" id="letterJ" onclick="keyBoardFunction('J')">
+              J
+            </div>
+            <div class="letters" id="letterK" onclick="keyBoardFunction('K')">
+              K
+            </div>
+            <div class="letters" id="letterL" onclick="keyBoardFunction('L')">
+              L
+            </div>
+            <div class="letters" id="letterM" onclick="keyBoardFunction('M')">
+              M
+            </div>
+            <div class="letters" id="letterN" onclick="keyBoardFunction('N')">
+              N
+            </div>
+            <div class="letters" id="letterO" onclick="keyBoardFunction('O')">
+              O
+            </div>
+            <div class="letters" id="letterP" onclick="keyBoardFunction('P')">
+              P
+            </div>
+            <div class="letters" id="letterQ" onclick="keyBoardFunction('Q')">
+              Q
+            </div>
+            <div class="letters" id="letterR" onclick="keyBoardFunction('R')">
+              R
+            </div>
+            <div class="letters" id="letterS" onclick="keyBoardFunction('S')">
+              S
+            </div>
+            <div class="letters" id="letterT" onclick="keyBoardFunction('T')">
+              T
+            </div>
+            <div class="letters" id="letterU" onclick="keyBoardFunction('U')">
+              U
+            </div>
+            <div class="letters" id="letterV" onclick="keyBoardFunction('V')">
+              V
+            </div>
+            <div class="letters" id="letterW" onclick="keyBoardFunction('W')">
+              W
+            </div>
+            <div class="letters" id="letterX" onclick="keyBoardFunction('X')">
+              X
+            </div>
+            <div class="letters" id="letterY" onclick="keyBoardFunction('Y')">
+              Y
+            </div>
+            <div class="letters" id="letterZ" onclick="keyBoardFunction('Z')">
+              Z
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="wordlist.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
