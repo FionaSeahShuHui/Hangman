@@ -20,7 +20,7 @@ Click on the link to play - https://fionaseahshuhui.github.io/Hangman/
   <tr>
     <td>01</td>
     <td>Colour Combination</td>
-    <td>The color combination are too normal</td>
+    <td>The color combination is too normal (Black & White)</td>
     <td><li>Do more research on the types of colour combination I can use
     <li>Implement a function that can allow the user to choose the color scheme that he/she wants to use</td>
   </tr>
