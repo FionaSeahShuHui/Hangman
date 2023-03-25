@@ -14,13 +14,15 @@ Click on the link to play - https://fionaseahshuhui.github.io/Hangman/
   <tr>
     <td>S/N</td>
     <td>Problems</td>
+    <td>Description</td>
     <td>Suggestions</td>
   </tr>
   <tr>
     <td>01</td>
     <td>Colour Combination</td>
-    <td>Do more research on the types of colour combination I can use</td>
-    <td>Implement a function that can allow the user to choose the color scheme that he/she wants to use</td>
+    <td>The color combination are too normal</td>
+    <td><li>Do more research on the types of colour combination I can use
+    <li>Implement a function that can allow the user to choose the color scheme that he/she wants to use</td>
   </tr>
   <tr>
     <td>02</td>
