@@ -7,7 +7,7 @@ An old-school mini word guessing game.
 Click on the link to play - https://fionaseahshuhui.github.io/Hangman/
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/118295100/227709853-3ba48961-59cf-4829-8ea1-da961d0d5d48.png)
+![Screenshot 2024-02-17 at 11 27 00 PM](https://github.com/FionaSeahShuHui/Hangman/assets/118295100/f9ae8597-c053-4337-9de4-aee37ffa31ac)
 
 ## Future Development
 <table>
