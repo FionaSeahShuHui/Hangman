@@ -2,212 +2,81 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.gameContainer h1 {
-  text-align: center;
-}
-
-.letters {
-  flex: 1;
-  float: left;
-  height: auto;
-  width: 40px;
-  margin: 0.4em;
-  text-align: center;
-  border: 2px solid black;
-  cursor: pointer;
-  border-radius: 20px;
-  height: 60px;
-  padding: 1px;
-}
-
 .gameContainer {
-  margin: 0 auto;
-  float: center;
-  height: 100vh;
+  margin-bottom: 20px;
 }
 
-.breakLine {
-  height: 4vh;
-}
-
-.wordGuess {
-  line-height: 60px;
+.gameContainer h2 {
   text-align: center;
-  font-size: 25px;
-  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
-.keyboard {
-  float: center;
-  margin: 0 auto;
-  padding-top: 2%;
-  padding-left: 10%;
-  padding-right: 10%;
-  float: center;
-  height: auto;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.letters {
-  flex: 1;
-  float: left;
-  height: auto;
-  width: 40px;
-  margin: 0.4em;
-  text-align: center;
-  border: 2px solid black;
-  cursor: pointer;
-  border-radius: 20px;
-  height: 60px;
-  padding: 1px;
-}
-
-.letters:hover {
-  background-color: black;
-  color: white;
-}
-
-.restartGameButton {
-  cursor: pointer;
-}
-
-.restartGameButton :hover {
-  border: 2px solid;
-  border-radius: 30px;
-  background-color: black;
-  color: white;
-  cursor: pointer;
+.hangmanImage {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .hangmanImage img {
-  width: 30vh;
+  width: 200px;
   filter: invert(100%);
   border: 2px solid white;
 }
 
-.hangmanImage {
-  margin-bottom: 20px;
-}
-
 .gameWord {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .gameWord input {
-  float: center;
-  height: 50px;
-  width: 50px;
-  margin: 3px;
+  height: 30px;
+  width: 30px;
+  margin: 5px;
   border: 2px solid black;
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 15px;
   color: black;
   text-align: center;
   text-transform: capitalize;
 }
 
 .restartGameButton {
-  border: 2px solid black;
-  margin: 20px;
-  border-radius: 20px;
-  background-color: black;
-  color: white;
+  margin: 10px;
+  text-align: center;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #a881af;
+  color: black;
+  cursor: pointer;
+  line-height: 30px;
 }
 
 .restartGameButton:hover {
-  background-color: grey;
-  border: grey;
-  color: black;
+  background-color: #80669d;
+  color: white;
+  cursor: pointer;
 }
 
-/* Not Handphone size */
-@media only screen and (min-width: 750px) {
-  .gameContainer {
-    margin: 0 auto;
-    float: center;
-    /* width: 80%; */
-    height: 50vh;
-  }
+.gameContainer .keyboardLetters {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 20px));
+  grid-gap: 5px;
+}
 
-  .breakLine {
-    height: 4vh;
-  }
+.gameContainer .keyboardLetters .character {
+  flex: 1;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 20px;
+}
 
-  .wordGuess {
-    line-height: 60px;
-    text-align: center;
-    font-size: 25px;
-  }
-
-  .hangmanImage img {
-    width: 40vh;
-    filter: invert(100%);
-    border: 2px solid white;
-  }
-
-  .row {
-    display: flex;
-  }
-
-  .keyboard {
-    float: center;
-    margin: 0 auto;
-    padding-top: 2%;
-    padding-left: 20%;
-    padding-right: 20%;
-    float: center;
-    height: auto;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  .letters {
-    flex: 1;
-    float: center;
-    width: 40px;
-    margin: 0.5em;
-    text-align: center;
-    border: 2px solid black;
-    cursor: pointer;
-    border-radius: 20px;
-    height: 60px;
-    padding: 1px;
-  }
-
-  .letters:hover {
-    background-color: black;
-    color: white;
-  }
-
-  .gameWord input {
-    float: center;
-    height: 45px;
-    width: 40px;
-    margin: 3px;
-    border: 2px solid black;
-    font-size: 30px;
-    font-weight: 700;
-    color: black;
-    text-align: center;
-    text-transform: capitalize;
-  }
-
-  .restartGameButton {
-    font-size: 30px;
-    border: 2px solid black;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 20px;
-    background-color: black;
-    color: white;
-  }
-
-  .restartGameButton:hover {
-    background-color: transparent;
-    border: 2px solid black;
-    color: black;
-  }
+.character:hover {
+  background-color: #a881af;
+  color: white;
 }
