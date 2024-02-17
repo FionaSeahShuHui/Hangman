@@ -19,19 +19,12 @@ Click on the link to play - https://fionaseahshuhui.github.io/Hangman/
   </tr>
   <tr>
     <td>01</td>
-    <td>Colour Combination</td>
-    <td>The color combination is too normal (Black & White)</td>
-    <td><li>Do more research on the types of colour combination I can use
-    <li>Implement a function that can allow the user to choose the color scheme that he/she wants to use</td>
-  </tr>
-  <tr>
-    <td>02</td>
     <td>Line Spacing</td>
     <td>The line spacing are not consistent in the game interface</td>
     <td>Be more consistent in the line spacing interface</td>
   </tr>
   <tr>
-    <td>03</td>
+    <td>02</td>
     <td>User Exprience</td>
     <td>User will have to keep scrolling to look for the specific letter or look at the game progress </td>
     <td>Minimise the all the white spaces</td>
